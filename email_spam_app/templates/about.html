@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Email Spam Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Spam Classifier</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h1 class="text-center">About Us</h1>
+                <p>Welcome to the Email Spam Classifier application! Our goal is to help you identify and classify spam emails using advanced machine learning techniques. Here is a brief overview of what our application does and its features:</p>
+                <h2>Features</h2>
+                <ul>
+                    <li><strong>Email Content Analysis:</strong> Enter the content of an email to check if it's spam or not.</li>
+                    <li><strong>File Upload:</strong> Upload a text file containing email content to classify it.</li>
+                    <li><strong>Real-time Classification:</strong> Get instant results on whether an email is spam or not.</li>
+                    <li><strong>Data Visualization:</strong> Visualize the classification results with intuitive charts.</li>
+                </ul>
+                <h2>About Machine Learning</h2>
+                <p>Our application uses a Naive Bayes classifier, a popular machine learning algorithm, to analyze and classify email content. The model has been trained on a large dataset of labeled emails, allowing it to accurately predict whether a new email is spam or not.</p>
+                <h2>Examples</h2>
+                <p>To clarify, here are two email examples, one spam and one non-spam:<br><strong>Spam Email:</strong><br>Congratulations! You have won a free vacation to the Bahamas. Click here to claim your prize. Don't miss out on this amazing opportunity!
+                    <br><strong>Keywords: </strong>"Congratulations", "free vacation", "Click here", "prize".<br> 
+                    <strong>Suspicious links. </strong> <br>
+
+                    <br><strong>Not-Spam Email:<br></strong>Hello team,<br>
+                        Just a reminder about the meeting tomorrow at 10 AM. We will discuss the project updates and next steps. Please make sure to bring all necessary documents.
+                        <br>
+                        Best regards, TDat.<br> 
+                        
+                        <strong>Keywords: </strong>"reminder", "meeting", "project updates".<br> 
+                        <strong>Professional language and no suspicious requests for action. </strong> <br>
+                </p> 
+                <h2>Contact Us</h2>
+                <p>If you have any questions or feedback, feel free to <a href="/contact">contact us</a>. We are always looking to improve our application and provide the best user experience.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-dark text-white mt-5 p-3 text-center">
+        &copy; 2025 Webisite by Tien Dat. All rights reserved.
+    </footer>
+</body>
+</html>

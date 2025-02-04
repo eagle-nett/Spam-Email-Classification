@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+    color: #403434;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.btn-group {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
