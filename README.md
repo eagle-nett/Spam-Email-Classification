@@ -1,11 +1,11 @@
-# Phân loại hoa Iris (Iris Classification)
+# Phân loại email spam (Spam Email Classification)
 📌 Loại bài toán: Phân loại (Classification)
-📌 Mô tả: Phân loại một bông hoa Iris vào một trong ba loại (Setosa, Versicolor, Virginica) dựa trên chiều dài và chiều rộng cánh hoa.
+📌 Mô tả: Phát hiện xem một email có phải là spam hay không.
 
 📌 Thuật toán phù hợp:
-KNN (K-Nearest Neighbors)
-Random Forest
+Naive Bayes
 Logistic Regression
+Random Forest
 
 📌 Bộ dữ liệu mẫu:
-Iris dataset (có sẵn trong sklearn)
+SpamAssassin Public Corpus
