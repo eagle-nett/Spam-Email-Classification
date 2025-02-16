@@ -5,11 +5,11 @@
 
 📌 Thuật toán phù hợp:
 
-Naive Bayes
+- Naive Bayes
 
-Logistic Regression
+- Logistic Regression
 
-Random Forest
+- Random Forest
 
 📌 Bộ dữ liệu mẫu:
 
